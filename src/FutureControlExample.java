@@ -40,6 +40,7 @@ public class FutureControlExample {
         executorService.shutdown();
 
         System.out.println("Ohirgi qator");
+        System.out.println("yana bitta ohirgi qator");
 
     }
 }
