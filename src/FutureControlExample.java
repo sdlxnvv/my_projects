@@ -23,6 +23,7 @@ public class FutureControlExample {
 
         if (responseUzCard.get()) {
             System.out.println("UzCard da pul bor!");
+            System.out.println("Murod hozirgi ");
         }
         if (responseHumoCard.get()) {
             System.out.println("HumoCard da pul kop");
