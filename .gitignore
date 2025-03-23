@@ -9,13 +9,12 @@ out/
 .factorypath
 .project
 .settings
-.idea
 .springBeans
 .sts4-cache
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-.idea
+*.idea
 
 ### NetBeans ###
 /nbproject/private/
