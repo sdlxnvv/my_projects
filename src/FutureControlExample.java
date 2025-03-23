@@ -28,6 +28,8 @@ public class FutureControlExample {
             System.out.println("HumoCard da pul kop");
         }
 
+        System.out.println("sdfasdf");
+
         System.out.println("Pul otkazildi");
 
         executorService.shutdown();
