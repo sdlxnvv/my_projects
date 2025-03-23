@@ -18,6 +18,7 @@ public class FutureControlExample {
                 System.out.println("HumoCard is checked");
                 return true;
         };
+        System.out.println("top");
 
         Future<Boolean> responseUzCard = executorService.submit(uzcardCheck);
         Future<Boolean> responseHumoCard = executorService.submit(humoCheck);
