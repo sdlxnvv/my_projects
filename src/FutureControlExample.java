@@ -6,7 +6,7 @@ public class FutureControlExample {
         ExecutorService executorService = Executors.newFixedThreadPool(core);
 
         Callable<Boolean> uzcardCheck = () -> {
-            System.out.println("UzCard is checking");
+            System.out.println("UzCard is checking hihihi");
             Thread.sleep(2000);
             System.out.println("UzCard is checked");
             return true;
