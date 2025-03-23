@@ -2,6 +2,7 @@ import java.util.concurrent.*;
 
 public class FutureControlExample {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
+        System.out.println("Birnchi qator");
         int core = Runtime.getRuntime().availableProcessors();
         ExecutorService executorService = Executors.newFixedThreadPool(core);
 
