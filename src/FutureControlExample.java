@@ -39,5 +39,7 @@ public class FutureControlExample {
 
         executorService.shutdown();
 
+        System.out.println("Ohirgi qator");
+
     }
 }
